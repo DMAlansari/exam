@@ -1,0 +1,40 @@
+.loginBox{
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 550px;
+    width: 400px;
+    height: 500px;
+}
+
+#student_name{
+    position: relative;
+    top: 70px;
+    left: 55px;
+}
+
+#student_id{
+    position: relative;
+    top: 100px;
+    left: 55px;  
+}
+
+.loginBox input[type="text"]{
+    padding: 10px 10px 10px 110px;
+    border: none;
+    border-radius: 10px;
+ 
+    outline: none;
+    box-shadow: 0 0 15px 4px rgb(199, 199, 199);
+
+}
+
+#login{
+    position: relative;
+    top: 120px;
+    left: 137px;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+}
+

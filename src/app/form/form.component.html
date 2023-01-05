@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="formBox">
+        <h3> 
+            This Is A Cyber Secutiry Exam By Eng. Dalal Al-Ansari
+        </h3>
+        <h4>
+            Good Luck!
+        </h4>
+        <br>
+        <br> 
+        <br> 
+        <br>
+        <br>        
+        <br> 
+        <br> 
+        <br>
+      <hr>
+
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="questions">
+          <p Id="Qheading"> A) Choose the correct answer:</p>
+            <div class="Q1">
+            1 - {{Q1[0]}}
+            </div>
+            <br> 
+           <!-- (change)="onChange($event)" -->
+             <input type="radio" name="q1" id="Q1A" formControlName="q1" value={{Q1[1]}}  checked>
+             <label for="Q1A">{{Q1[1]}}</label><br>
+             <input type="radio" name="q1" id="Q1B" formControlName="q1" value={{Q1[2]}} checked>
+             <label for="Q1B">{{Q1[2]}}</label><br>
+             <input type="radio" name="q1" id="Q1C" formControlName="q1" value={{Q1[3]}} checked>
+             <label for="Q1C">{{Q1[3]}}</label><br>
+             <input type="radio" name="q1" id="Q1D" formControlName="q1" value={{Q1[4]}} checked>
+             <label for="Q1D">{{Q1[4]}}</label><br>    
+             
+                <br>
+                <br>
+                <div class="Q2">
+                2 - {{Q2[0]}}
+                 <br> 
+                </div>
+                <br>
+                 <input type="radio" name="q2" id="Q2A" formControlName="q2"  value={{Q2[3]}}  checked>
+                 <label for="Q2A">{{Q2[3]}}</label><br>
+                 <input type="radio" name="q2" id="Q2B" formControlName="q2"  value={{Q2[2]}}  checked>
+                 <label for="Q2B">{{Q2[2]}}</label><br>
+                 <input type="radio" name="q2" id="Q2C" formControlName="q2"  value={{Q2[1]}}  checked>
+                 <label for="Q2C">{{Q2[1]}}</label><br>
+                 <input type="radio" name="q2" id="Q2D" formControlName="q2"  value={{Q2[4]}}  checked>
+                 <label for="Q2D">{{Q2[4]}}</label><br>   
+                 
+                <br>
+                <br>
+                <div class="Q3">
+                3 - {{Q3[0]}}
+                 <br> 
+                </div>
+                <br>
+                 <input type="radio" name="q3" id="Q3A" formControlName="q3" value={{Q3[3]}}  checked>
+                 <label for="Q3A">{{Q3[3]}}</label><br>
+                 <input type="radio" name="q3" id="Q3B" formControlName="q3" value={{Q3[1]}}  checked>
+                 <label for="Q3B">{{Q3[1]}}</label><br>
+                 <input type="radio" name="q3" id="Q3C" formControlName="q3" value={{Q3[2]}}  checked>
+                 <label for="Q3C">{{Q3[2]}}</label><br>
+                 <input type="radio" name="q3" id="Q3D" formControlName="q3" value={{Q3[4]}}  checked>
+                 <label for="Q3D">{{Q3[4]}}</label><br>  
+                                  
+                <br>
+                <br>
+                <div class="Q4">
+                4 - {{Q4[0]}}
+                 <br> 
+                </div>
+                <br>
+                 <input type="radio" name="q4" id="Q4A" formControlName="q4"  value={{Q4[3]}}  checked>
+                 <label for="Q4A">{{Q4[3]}}</label><br>
+                 <input type="radio" name="q4" id="Q4B" formControlName="q4"  value={{Q4[4]}}  checked>
+                 <label for="Q4B">{{Q4[4]}}</label><br>
+                 <input type="radio" name="q4" id="Q4C" formControlName="q4"  value={{Q4[2]}}  checked>
+                 <label for="Q4C">{{Q4[2]}}</label><br>
+                 <input type="radio" name="q4" id="Q4D" formControlName="q4"  value={{Q4[1]}}  checked>
+                 <label for="Q4D">{{Q4[1]}}</label><br>  
+                                                  
+                <br>
+                <br>
+                <div class="Q5">
+                5 - {{Q5[0]}}
+                 <br> 
+                </div>
+                <br>
+                 <input type="radio" name="q5" id="Q5A" formControlName="q5"  value={{Q5[3]}}  checked>
+                 <label for="Q5A">{{Q5[3]}}</label><br>
+                 <input type="radio" name="q5" id="Q5B" formControlName="q5"  value={{Q5[4]}}  checked>
+                 <label for="Q5B">{{Q5[4]}}</label><br>
+                 <input type="radio" name="q5" id="Q5C" formControlName="q5"  value={{Q5[2]}}  checked>
+                 <label for="Q5C">{{Q5[2]}}</label><br>
+                 <input type="radio" name="q5" id="Q5D" formControlName="q5"  value={{Q5[1]}}  checked>
+                 <label for="Q5D">{{Q5[1]}}</label><br>  
+
+                 <p Id="Qheading"> B) True or false:</p>
+
+                 <div class="Q6">
+                    1 - {{Q6[0]}}
+                 </div>
+                <div class="Q7">
+                    2 - {{Q7[0]}}
+                 </div>
+                 <div class="Q8">
+                    3 - {{Q8[0]}}
+                 </div>
+                 <div class="Q9">
+                    4 - {{Q9[0]}}
+                 </div>
+                 <div class="TFAnswers">
+                 <input type="radio" name="q6" id="Q6T" formControlName="q6" value="true">
+                 <label for="Q6T">True   </label>
+                 <input type="radio" name="q6" id="Q6F" formControlName="q6" value="false">
+                 <label for="Q6F">False</label><br>
+                 <input type="radio" name="q7" id="Q7T" formControlName="q7" value="true">
+                 <label for="Q7T">True   </label>
+                 <input type="radio" name="q7" id="Q7F" formControlName="q7" value="false">
+                 <label for="Q7F">False</label><br>
+                 <input type="radio" name="q8" id="Q8T" formControlName="q8" value="true">
+                 <label for="Q8T">True   </label>
+                 <input type="radio" name="q8" id="Q8F" formControlName="q8" value="false">
+                 <label for="Q8F">False</label><br>
+                 <input type="radio" name="q9" id="Q9T" formControlName="q9" value="true">
+                 <label for="Q9T">True   </label>
+                 <input type="radio" name="q9" id="Q9F" formControlName="q9" value="false">
+                 <label for="Q9F">False</label><br>
+                </div>
+        </div>
+
+        <input id="submit" type="submit" value="submit">
+    </form>
+    
+    
+    </div>
+    
+</body>
+</html>
+
+
+

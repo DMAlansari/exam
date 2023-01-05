@@ -1,0 +1,30 @@
+{
+"Q1":["A netmask can be represented by which two ways?",
+"Decimal Numbers (Netmask: 255.255.255.0) and Slash Notation (80.212.212.50/32)",
+"Pound Notation (80.2012.212.50#24) and Decimal Numbers (Netmask: 255.255.255.0",
+"Slash Notation (80.212.212.50/32) and Pound Notation (80.2012.212.50#24)",
+"All of the above"],
+
+"Q2":["Which is the broadcast address in this network: 172.16.24.0/24","172.16.24.255","172.16.24.1","172.16.24.0", "None of them"],
+
+"Q3":["Which one of these is a RFC 1918 ip address?","172.16.1.30","9.0.0.1","172.17.1.30","None of them"],
+
+"Q4":["Shortening an IPv6 address means:",
+"Removing a group of only 0's",
+"Removing unused groups of hexadecimal numbers",
+"Converting 8 groups of 4 hexadecimal numbers into a valid IPv4 address ",
+"Adding a group of 0's"],
+
+"Q5":["To be able to detect and block specific file types/documents to be blocked from downloading from the internet, with a firewall, you need:",
+"A Next-Generation Firewall with layer 7 features","A Next-Generation Firewall with phaser features",
+"A Next-Generation Firewall with layer 6 features", "A Previous-Generation Firewall with layer 7 features"],
+
+"Q6":["Spoofing is a falsifying data that makes something appear different than they really are","true"],
+
+"Q7":["Zero-Trust architecture is a network where we do not trust public network(internet), but we trust local network","false",
+"false, A network where all systems/resources need explicit access to be able to communicate"],
+
+"Q8":["A cookie can not be used to control a users session/state","false","false, Cookies are often used for tracking sessions"],
+
+"Q9":["ARP Scanning can only be used to identify hosts/systems on the LAN","True"]
+}
